@@ -1,0 +1,26 @@
+#program to calculate super market bill
+cb=280
+mb=370
+vb=450
+rice=130
+wb=250
+cbq=int(input('Enter cb packets'))
+mbq=int(input('Enter mb packets '))
+vbq=int(input('Enter vb packets'))
+wbq=int(input('Enter rice packets'))
+riceq=int(input('Enter water bottles'))
+total=(cb*cbq)+(mb*mbq)+(vb*vbq)+(rice*riceq)+(wb*wbq)
+if bill>=5000:
+    disc=bill*10/100
+    tax=bill*10/100
+elif bill>3000:
+    disc=bill*8/100
+    tax=bill*10/100
+elif billt>2000:
+    disc=bill*5/100
+    tax=bill*18/100
+elif bill>1000:
+    disc=bill*3/100
+    tax=bill*18/100
+marketbill=bill-disc+tax
+print('super market bill:',marketbill)
