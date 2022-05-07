@@ -1,0 +1,17 @@
+A={1:['suvarna','female','mpcs','pass'],2:['neha','female','mecs','pass'],3:['vani','female','mbc','pass'],4:['vijju','female','mstcs','pass']}
+x=int(input('enter a number:'))
+print(x)
+print('name of the person:',A[1][0])
+print('gender:',A[1][1])
+print('Group:',A[1][2])
+print('result',A[1][3])
+ 
+ 
+ output:
+ enter a number: 8
+8
+name of the person: suvarna
+gender: female
+Group: mpcs
+result pass
+ 
